@@ -1,4 +1,7 @@
+import tensorflow as tf
 from tensorflow import keras
+from tensorflow.keras import layers
+from tensorflow.keras import regularizers
 from tensorflow.keras.applications import EfficientNetV2S
 from tensorflow.keras.applications.efficientnet_v2 import preprocess_input
 
