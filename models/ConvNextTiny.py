@@ -1,5 +1,8 @@
+import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras.applications import ConvNextTiny
+from tensorflow.keras import layers
+from tensorflow.keras import regularizers
+from tensorflow.keras.applications import ConvNeXtTiny
 from tensorflow.keras.applications.convnext import preprocess_input
 
 pretrained_convnext = ConvNeXtTiny(
