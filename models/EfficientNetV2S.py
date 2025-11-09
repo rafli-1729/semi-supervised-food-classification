@@ -15,8 +15,6 @@ pretrained_effnet.trainable = False
 
 # Input
 inputs = keras.Input(shape=(*IMG_SIZE, 3))
-
-# Augmentasi
 x = layers.RandomFlip('horizontal')(inputs)
 x = layers.RandomRotation(0.1)(x)
 x = layers.RandomZoom(0.1)(x)
