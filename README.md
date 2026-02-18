@@ -50,6 +50,7 @@ Pendekatan pertama menggunakan transfer learning dengan fine-tuning model pretra
 
 ### Model Pipeline
 
+``` python
 MODEL_PIPELINE = {
     "EfficientNetV2S": {
         "build_fn": build_efficientnet_v2s, "config": config_effnet_v2s
@@ -61,6 +62,7 @@ MODEL_PIPELINE = {
         "build_fn": build_densenet,"config": config_densenet
     }
 }
+```
 
 ### Workflow
 
